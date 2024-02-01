@@ -11,14 +11,14 @@ This Jupyter Notebook file involves the machine learning aspect of the analysis.
 
 ### NLP Automation.ipynb: 
 This Jupyter Notebook file focuses on the automation of Natural Language Processing tasks. It includes the following preprocessing steps:
-     - Changing to Lower-case: Convert all text to lowercase for consistency.
-     - Remove Numbers: Eliminate numerical characters from the text.
-     - Remove Punctuations: Get rid of punctuation marks in the text.
-     - Remove Stopwords: Remove common words (stopwords) that do not contribute much to the meaning.
-     - Remove URL/https: Eliminate URLs or any hyperlinks present in the text.
-     - Lemmatization: Reduce words to their base or root form.
-     - Remove Common Words: Further removal of common words that may not add significant value.
-     - Remove Extra White Space: Ensure uniform spacing in the text.
+- Changing to Lower-case: Convert all text to lowercase for consistency.
+- Remove Numbers: Eliminate numerical characters from the text.
+- Remove Punctuations: Get rid of punctuation marks in the text.
+- Remove Stopwords: Remove common words (stopwords) that do not contribute much to the meaning.
+- Remove URL/https: Eliminate URLs or any hyperlinks present in the text.
+- Lemmatization: Reduce words to their base or root form.
+- Remove Common Words: Further removal of common words that may not add significant value.
+- Remove Extra White Space: Ensure uniform spacing in the text.
 
 ### build.pkl: 
 This file stores the trained machine learning model in a serialized format. It can be loaded for predictions without the need to retrain the model.
