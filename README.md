@@ -16,6 +16,7 @@ This Jupyter Notebook file focuses on the automation of Natural Language Process
 - Lemmatization: Reduce words to their base or root form.
 - Remove Common Words: Further removal of common words that may not add significant value.
 - Remove Extra White Space: Ensure uniform spacing in the text.
+
 Further, this cleaned data is used for sentiment analysis to gain insights into the sentiments expressed in the Google Play Store reviews.  
 
 ### 3) Machine Learning on NLP Data.ipynb: 
