@@ -3,13 +3,10 @@
 This repository contains files and data related to the analysis of Google Play Store reviews using Natural Language Processing (NLP). The analysis primarily focuses on sentiment analysis, utilizing machine learning techniques for model preparation.
 
 ## Files
-### Automated PlayStore review scraping.ipynb: 
+### 1) Automated PlayStore review scraping.ipynb: 
 This Jupyter Notebook file is used for scraping reviews from the Google Play Store. It contains the code and process for collecting the raw data.
 
-### Machine Learning on NLP Data.ipynb: 
-This Jupyter Notebook file involves the machine learning aspect of the analysis. It utilizes the NLP data to train models, preparing them for sentiment analysis.
-
-### NLP Automation.ipynb: 
+### 2) NLP Automation.ipynb: 
 This Jupyter Notebook file focuses on the automation of Natural Language Processing tasks. It includes the following preprocessing steps:
 - Changing to Lower-case: Convert all text to lowercase for consistency.
 - Remove Numbers: Eliminate numerical characters from the text.
@@ -20,12 +17,16 @@ This Jupyter Notebook file focuses on the automation of Natural Language Process
 - Remove Common Words: Further removal of common words that may not add significant value.
 - Remove Extra White Space: Ensure uniform spacing in the text.
 
-### build.pkl: 
+### 3) Machine Learning on NLP Data.ipynb: 
+This Jupyter Notebook file involves the machine learning aspect of the analysis. It utilizes the NLP data to train models, preparing them for sentiment analysis.
+
+### 4) build.pkl: 
 This file stores the trained machine learning model in a serialized format. It can be loaded for predictions without the need to retrain the model.
 
-### DataSet folder: 
-This folder contains datasets fetched from the Google Play Store. There are four different datasets from MakeMyTrip, Goibibo, Booking.com & Yatra platforms, all collected for sentiment analysis
-### Sentiment Dataset: 
+### 5) DataSet folder: 
+This folder contains datasets fetched from the Google Play Store. There are four different datasets from MakeMyTrip, Goibibo, Booking.com & Yatra platforms, all collected for sentiment analysis.
+
+### 6) Sentiment Dataset: 
 This folder contains the output dataset generated from the sentiment analysis. It serves as the labeled data for model training in the "Machine Learning on NLP Data.ipynb" file.
 
 ## How to Use
