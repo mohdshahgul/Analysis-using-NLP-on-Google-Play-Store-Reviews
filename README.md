@@ -23,7 +23,7 @@ Further, this cleaned data is used for sentiment analysis to gain insights into 
 This Jupyter Notebook file involves the machine learning aspect of the analysis. It utilizes the NLP data to train and evaluate models.
 
 ### 4) build.pkl: 
-This file stores the trained machine learning model in a serialized format. It can be loaded for predictions without the need to retrain the model.
+This file stores the trained machine learning model in a serialized format. It can be loaded for predictions without the need to retrain the model.(only review description column is required to implement this model)
 
 ### 5) DataSet folder: 
 This folder contains datasets fetched from the Google Play Store. There are four different datasets from MakeMyTrip, Goibibo, Booking.com & Yatra platforms, all collected for sentiment analysis.
