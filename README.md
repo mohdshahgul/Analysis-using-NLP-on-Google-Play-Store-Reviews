@@ -28,7 +28,7 @@ This file stores the trained machine learning model in a serialized format. It c
 ### 5) DataSet folder: 
 This folder contains datasets fetched from the Google Play Store. There are four different datasets from MakeMyTrip, Goibibo, Booking.com & Yatra platforms, all collected for sentiment analysis.
 
-### 6) Sentiment Dataset: 
+### 6) Sentiment Dataset Folder: 
 This folder contains the output dataset generated from the sentiment analysis. It serves as the labeled data for model training in the "Machine Learning on NLP Data.ipynb" file.
 
 ## How to Use
