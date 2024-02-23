@@ -8,14 +8,14 @@ This Jupyter Notebook file is used for scraping reviews from the Google Play Sto
 
 ### 2) NLP Automation.ipynb: 
 This Jupyter Notebook file focuses on the automation of Natural Language Processing tasks. It includes the following preprocessing steps:
-- Changing to Lower-case: Convert all text to lowercase for consistency.
-- Remove Numbers: Eliminate numerical characters from the text.
-- Remove Punctuations: Get rid of punctuation marks in the text.
-- Remove Stopwords: Remove common words (stopwords) that do not contribute much to the meaning.
-- Remove URL/https: Eliminate URLs or any hyperlinks present in the text.
-- Lemmatization: Reduce words to their base or root form.
-- Remove Common Words: Further removal of common words that may not add significant value.
-- Remove Extra White Space: Ensure uniform spacing in the text.
+- **Changing to Lower-case**: Convert all text to lowercase for consistency.
+- **Remove Numbers**: Eliminate numerical characters from the text.
+- **Remove Punctuations**: Get rid of punctuation marks in the text.
+- **Remove Stopwords**: Remove common words (stopwords) that do not contribute much to the meaning.
+- **Remove URL/https**: Eliminate URLs or any hyperlinks present in the text.
+- **Lemmatization**: Reduce words to their base or root form.
+- **Remove Common Words**: Further removal of common words that may not add significant value.
+- **Remove Extra White Space**: Ensure uniform spacing in the text.
 
 Further, this cleaned data is used for sentiment analysis to gain insights into the sentiments expressed in the Google Play Store reviews.  
 
